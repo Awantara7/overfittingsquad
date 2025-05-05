@@ -26,7 +26,7 @@ Dataset bersumber dari pengujian kualitas air sumur rumah tangga di wilayah Jaka
 
 Eksplorasi -> prepocessing -> Modelling -> Evaluasi -> Diskusi
 
-Agar lebih jelas silakan akses flowchart ini https://lucid.app/lucidchart/165ea3ae-6a9c-4857-8aba-f8106ae4142a/edit?viewport_loc=401%2C49%2C3224%2C1765%2Cm-5o7ONTd-nK&invitationId=inv_f01c6e1c-3a8d-4980-a020-8e8a15d148cb
+Agar lebih jelas silakan akses flowchart [ini] (https://lucid.app/lucidchart/165ea3ae-6a9c-4857-8aba-f8106ae4142a/edit?viewport_loc=401%2C49%2C3224%2C1765%2Cm-5o7ONTd-nK&invitationId=inv_f01c6e1c-3a8d-4980-a020-8e8a15d148cb).
 
 ## Hasil dan Diskusi
 
