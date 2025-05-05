@@ -1,4 +1,4 @@
-# Prediksi Kelayakan Air Sumur Jakarta Berdasarkan Parameter Kimia-Fisika dengan Random Forest: Upaya Mitigasi Risiko Kesehatan Masyarakat
+# Prediksi Kelayakan Air Sumur Area Jakarta Berdasarkan Parameter Kimia-Fisika dengan Random Forest: Upaya Mitigasi Risiko Kesehatan Masyarakat
 
 ## Abstract
 
