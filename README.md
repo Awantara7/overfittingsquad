@@ -16,8 +16,22 @@ Adapun tujuan dari project ini:
 2. Mengidentifikasi parameter pencemar utama yang paling berkontribusi terhadap ketidaklayakan air.
 3. Memberikan rekomendasi mitigasi risiko kesehatan masyarakat berdasarkan hasil analisis model.
 
-## Metodologi
+## Data dan Metode
+
+### Data
+
+Dataset bersumber dari pengujian kualitas air sumur rumah tangga di wilayah Jakarta (2023). Parameter yang dikumpulkan meliputi: pH, Bau, Zat Besi (Fe), E. coli, Kromium Heksavalen (Cr-VI), Nitrat (NO3), Nitrit (NO2), Indeks Permanganat (IP), Total Coliform, Warna, dan label kelayakan.
+
+### Metode
+
+Eksplorasi -> prepocessing -> Modelling -> Evaluasi -> Diskusi
 
 ## Hasil dan Diskusi
 
 ## Kesimpulan
+
+## Rekomendasi
+
+### Rekomendasi untuk Praktisi Keilmuan
+
+### Rekomendasi untuk Pemangku Kebijakan
