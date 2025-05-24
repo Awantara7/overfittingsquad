@@ -80,7 +80,7 @@ Hasil awal menunjukkan bahwa seluruh model Random Forest, XGBoost, dan LightGBM 
 Temuan ini memunculkan kekhawatiran adanya data leakage, yakni ketika model “belajar” dari informasi yang secara logis sudah mencerminkan target. Dalam hal ini, IP sebagai target dihitung langsung dari fitur input, sehingga hubungan antar variabel menjadi artifisial dan terlalu ideal.
 
 <p align="center">
-  <img width="900" height="500" src="dokumentasi/Peta Sebaran Pencemaran Air DKI2022.jpg">
+  <img width="900" height="600" src="dokumentasi/Peta Sebaran Pencemaran Air DKI2022.jpg">
 </p>
 
 Sebagai langkah mitigasi terhadap potensi overfitting dan data leakage, kami merevisi pendekatan label target:
