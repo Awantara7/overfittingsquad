@@ -66,7 +66,7 @@ Langkah-langkah metode penelitian ini dapat dilihat pada flowchart di bawah ini.
 Pada proses Explaratory data analysis didapatkan hanya sekitar 17.4\% dari total sampel sumur yang tergolong Baik, artinya berada dalam ambang batas aman kualitas air menurut Indeks Pencemaran. Mayoritas besar, yaitu 82.6% sumur yang diteliti tergolong tercemar, menunjukkan adanya pencemaran signifikan terhadap air tanah di wilayah urban ini.
 
 <p align="center">
-  <img width="900" height="500" src="dokumentasi/piechart.png">
+  <img width="900" height="550" src="dokumentasi/piechart.png">
 </p>
 
 Pada awalnya kita membandingkan tiga metode machine learning seperti XgBoost, LightGBM, dan random forest tanpa hyperparameter tuning dan praproses. Hasilnya tampak pada gambar di bawah ini
