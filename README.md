@@ -1,5 +1,16 @@
 # Prediksi Kelayakan Air Sumur Area Jakarta Berdasarkan Parameter Kimia-Fisika dengan Random Forest: Upaya Mitigasi Risiko Kesehatan Masyarakat
 
+## :bookmark_tabs: ToC
+
+- [Abstract](#Abstract)
+- [Latar Belakang](#Latar-Belakang)
+- [Tujuan](#Tujuan)
+- [Data dan Metode](#Data-dan-Metode)
+- [Hasil dan Diskusi](#Hasil-dan-Diskusi)
+- [Kesimpulan](#Kesimpulan)
+- [Rekomendasi](#Rekomendasi)
+
+  
 ## Abstract
 
 Air bersih merupakan kebutuhan dasar yang sangat vital bagi kesehatan masyarakat, terutama di wilayah padat seperti Jakarta. Penelitian ini bertujuan untuk memprediksi kelayakan air sumur rumah tangga berdasarkan parameter kimia-fisika menggunakan algoritma Random Forest. Data yang digunakan merupakan hasil pengujian kualitas air sumur dari berbagai kecamatan di Jakarta tahun 2023, dengan parameter seperti pH, zat besi (Fe), E. coli, nitrat, dan lainnya. Hasil model menunjukkan performa klasifikasi yang baik dan berhasil mengidentifikasi parameter paling kritis terhadap ketidaklayakan air. Informasi ini diharapkan dapat menjadi dasar mitigasi risiko kesehatan masyarakat melalui intervensi wilayah dan edukasi.
@@ -20,13 +31,35 @@ Adapun tujuan dari project ini:
 
 ### Data
 
-Dataset bersumber dari pengujian kualitas air sumur rumah tangga di wilayah Jakarta (2023). Parameter yang dikumpulkan meliputi: pH, Bau, Zat Besi (Fe), E. coli, Kromium Heksavalen (Cr-VI), Nitrat (NO3), Nitrit (NO2), Indeks Permanganat (IP), Total Coliform, Warna, dan label kelayakan.
+Dataset ini merekam kualitas air sumur dari berbagai lokasi di DKI Jakarta pada tahun 2023, yang tersebar di berbagai kecamatan dan wilayah administratif (Jakarta Pusat, Jakarta Barat, Jakarta Timur, Jakarta Utara, dan Jakarta Selatan). Data ini penting karena kualitas air sumur berkaitan langsung dengan kesehatan masyarakat, terutama bagi masyarakat yang masih mengandalkan air tanah sebagai sumber air utama.
+
+| Kolom                  | Deskripsi                  | 
+|:---------------------------|:-----------------------|
+| lintang_selatan                    | Koordinat geografis lintang (latitude) dari lokasi sumur  | 
+| bujur_timur                | Koordinat geografis bujur (longitude) dari lokasi sumur | 
+| wilayah                 | Nama wilayah administratif	| 	
+| kecamatan                | Nama kecamatan di mana sumur berada  | 
+| nama_lokasi	               | Nama atau penanda lokasi sumur  | 
+| Besi		    	             | Kadar kandungan besi (Fe) dalam air (mg/L)  | 
+| E_Coli	    	     | Jumlah bakteri Escherichia coli dalam air (jumlah koloni per 100 ml)  | 
+| IP		        	     | Indeks pencemaran  | 
+| Krom_heks		    	           | character varying(50)Kandungan kromium heksavalen (Cr⁶⁺) dalam air (mg/L)  | 
+| Mangan	    	   | Kandungan mangan (Mn) dalam air (mg/L)                | 
+| Nitrat		    	         |            Kadar nitrat (NO₃⁻) dalam air (mg/L)        | 
+| 	  Nitrit  	         | Kadar nitrit (NO₂⁻) dalam air (mg/L)                   | 
+| Organik	    	           | Zat organik yang terlarut dalam air (mg/L)                   | 
+| Surfaktan | Kadar surfaktan (detergen) dalam air (mg/L) |
+| Total_colif | Jumlah total \textit{coliform} per 100 m |
+| Warna | Tingkat pewarnaan air (dalam satuan warna - mg/L PtCo) |
+
 
 ### Metode
 
-Eksplorasi -> prepocessing -> Modelling -> Evaluasi -> Diskusi
+Langkah-langkah metode penelitian ini dapat dilihat pada flowchart di bawah ini.
 
-Agar lebih jelas silakan akses flowchart [ini] (https://lucid.app/lucidchart/165ea3ae-6a9c-4857-8aba-f8106ae4142a/edit?viewport_loc=401%2C49%2C3224%2C1765%2Cm-5o7ONTd-nK&invitationId=inv_f01c6e1c-3a8d-4980-a020-8e8a15d148cb).
+<p align="center">
+  <img width="900" height="500" src="Flowchart">
+</p>
 
 ## Hasil dan Diskusi
 
